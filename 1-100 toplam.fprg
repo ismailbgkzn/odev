@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#304;smail"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 08:17:24 &#214;S"/>
+        <attribute name="created" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xMzswODoxMDoxNiDDllM7MzM1OQ=="/>
+        <attribute name="edited" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xMzswODoxNzoyNCDDllM7MTszNDcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, sayac" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="1"/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="sayac" start="1" end="100" direction="inc" step="1">
+                <assign variable="toplam" expression="sayac+toplam"/>
+            </for>
+            <output expression="&quot;sonu&#231; &quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

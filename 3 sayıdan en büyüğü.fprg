@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#304;smail"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-13 08:25:33 &#214;S"/>
+        <attribute name="created" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xMzswODoxNzo0MCDDllM7MzM2Mw=="/>
+        <attribute name="edited" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xMzswODoyNTozMyDDllM7MTszNDcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, b&#252;y&#252;k" type="Integer" array="False" size=""/>
+            <output expression="&quot;l&#252;tfen &#252;&#231; say&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="b&#252;y&#252;k" expression="a"/>
+            <if expression="b&gt;b&#252;y&#252;k">
+                <then>
+                    <assign variable="b&#252;y&#252;k" expression="b"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&gt;b&#252;y&#252;k">
+                <then>
+                    <assign variable="b&#252;y&#252;k" expression="c"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;en b&#252;y&#252;k say&#305; &quot;&amp;b&#252;y&#252;k" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

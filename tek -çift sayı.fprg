@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#304;smail"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-14 02:31:03 &#214;&#214;"/>
+        <attribute name="created" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xNDswMjoyNDoxOCDDlsOWOzM0OTI="/>
+        <attribute name="edited" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xNDswMjozMTowMyDDlsOWOzE7MzU5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="a mod 2"/>
+            <if expression="b==0">
+                <then>
+                    <output expression="&quot;&#231;ift&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;tek&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

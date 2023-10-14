@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#304;smail"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-14 02:38:52 &#214;&#214;"/>
+        <attribute name="created" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xNDswMjozMTozNiDDlsOWOzM0OTA="/>
+        <attribute name="edited" value="xLBzbWFpbDtERVNLVE9QLVRRRFRKQkU7MjAyMy0xMC0xNDswMjozODo1MiDDlsOWOzE7MzYwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ttop, ctop, sayac" type="Integer" array="False" size=""/>
+            <assign variable="ctop" expression="0"/>
+            <assign variable="ttop" expression="0"/>
+            <for variable="sayac" start="1" end="100" direction="inc" step="2">
+                <assign variable="ttop" expression="sayac+ttop"/>
+                <assign variable="ctop" expression="sayac+ctop+1"/>
+            </for>
+            <output expression="&quot;tek say&#305; toplam&#305;&quot; &amp;ttop" newline="True"/>
+            <output expression="&quot;&#231;ift say&#305; toplam&#305; &quot;&amp;ctop" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
